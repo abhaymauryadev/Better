@@ -2,6 +2,8 @@
 import Footer from '@/components/Footer';
 import { useState, useCallback } from 'react';
 
+
+
 export default function CalculatePage() {
   const [value, setValue] = useState(30000);
   const [min] = useState(50000);
@@ -911,7 +913,7 @@ ${formatNumber(monthlyPayment)}/mo
                     breaking down the Census Bureau's 2021 American Community Survey 5-year estimate:
                 </p>
                 <div className="my-3xl">
-                    <div className="relative pointer group w-full h-full overflow-scroll" tabindex="0">
+                    <div className="relative pointer group w-full h-full overflow-scroll" >
                         <table className="min-w-full border border-[#bfbebb]  table-auto clip-inset-round">
                             <thead className="">
                                 <tr>

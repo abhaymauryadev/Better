@@ -1,5 +1,13 @@
 import Footer from "@/components/Footer"
 
+export const metadata = {
+    title: 'Our company | Better Mortgage',
+    description: '',
+    icons: {
+      icon: '/public/favicon.ico',
+    },
+  }
+
 export default function AboutPage() {
     return (
         <>
